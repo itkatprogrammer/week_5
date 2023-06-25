@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color:rgb(221, 199, 255);
+    padding: 20px;
+}
+
+.mainContainer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.articles {
+    display: flex;
+    justify-content: flex-end;
+    width: 60vw;
+    flex-direction: column;
+    gap: 20px;
+    padding: 15px;
+    background-color:rgb(253, 239, 216);
+}
+
+.articleFirstRow {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.articleSecondRow {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+
+.article{
+    width: 100vw;
+    padding: 45px;
+    background-color: rgba(248, 208, 122, 0.582);
+    font-family: 'Jost', Arial sans-serif;
+    font-weight: bolder;
+}
+
+aside{
+    width: 40vw;
+    background-color: rgba(13, 148, 71, 0.26);
+}
+
+.main_p {
+    padding-bottom: 90px;
+}
+
+.aside_p {
+padding-top: 30px;
+}
+
+.footerContainer {
+    display: flex;
+    background-color: rgba(221, 199, 255, 0.993);;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 15px;
+}
+
+.section {
+    display: flex;
+    padding: 35px 0px;
+justify-content: center;
+    background-color: #FFF;
+    font-weight: bolder;
+    font-family: 'Jost', sans-serif;
+    font-weight: bolder;
+    flex-grow: 1;
+}
+
+p{
+    font-family: 'Jost', Arial, sans-serif;
+    font-weight: bolder;
+}
+
+

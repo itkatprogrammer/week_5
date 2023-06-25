@@ -1,0 +1,114 @@
+@font-face {
+    font-family: "Jost";
+    src: local("Jost"),
+        local("Jost"),
+        url("fonts/Jost/webfontkit-20230619-175314/jost-variablefont_wght-webfont.woff") format("woff"),
+        url("fonts/Jost/webfontkit-20230619-175314/jost-variablefont_wght-webfont.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "DM Serif Display";
+    src: local("DM Serif Display"),
+        local("DM Serif Display"),
+        url("fonts/DM_Serif_Display/dmserifdisplay-regular-webfont.woff") format("woff"),
+        url("fonts/DM_Serif_Display/dmserifdisplay-regular-webfont.woff2") format("woff2");
+    font-weight: normal;
+}
+
+html {
+    font-family: 'Jost';
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.22px;  
+}
+
+.nav {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.4px;
+} 
+
+.p_calling_text{
+    font-size: 24px;  
+}
+
+.button_start, .button_estimate {
+    letter-spacing: 0.72px;
+}
+
+.personCity, .button_connect, .button_start, .button_estimate, .p_More {
+    font-size:18px; 
+    line-height: 27px;
+}
+
+.p_More {
+    letter-spacing: 0.36px;  
+}
+
+.p_opinion {
+    font-size:20px; 
+    line-height: 30px; 
+}
+
+h1, .h3_section, .h2_articleOne, .h2_opinion, .p_name, .h2_projects, .h2_blog, .p_design, .num, .p_interior, .h2_join, .footerSectionName {
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+}
+
+h1, .h3_section, .h2_articleOne, .h2_opinion, .p_name, .h2_projects, .h2_blog, .p_design, .h2_join, .footerSectionName {
+letter-spacing: 0.22px;
+}
+
+.h3_section, .p_name, .p_interior, .footerSectionName {
+    font-size: 25px;
+}
+
+.p_design, .footerSectionName  {
+    line-height: 37.5px;
+}
+
+
+h1{
+    font-size: 80px;
+    line-height: 96px;
+}
+
+.h3_section {
+    line-height: 39px;
+}
+
+.h2_articleOne {
+    font-size: 50px;
+    line-height: 65px;
+}
+
+.h2_opinion {
+    font-size: 45px;
+    line-height: 58.5px;
+}
+
+.h2_projects, .h2_blog {
+    font-size: 47px;
+    line-height: 62.4px;
+}
+
+.p_design {
+    font-size: 24px;
+}
+
+.num {
+    font-size: 85px;
+    line-height: 127.5px;
+    letter-spacing: 1.7px;   
+}
+
+.p_interior {
+    line-height: 35px;
+    letter-spacing: 0.5px;   
+}
+
+.h2_join {
+    font-size: 50px;
+    line-height: 75px;
+}
